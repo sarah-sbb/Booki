@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.navbar .nav-link {
+    display: flex;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.navbar .nav-link .nav-link-item {
+    margin-left: 60px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px;
+}

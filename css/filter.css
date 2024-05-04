@@ -1,0 +1,57 @@
+.filter {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.filter p {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.filter-list {
+    display: flex;
+    align-items: center;
+}
+
+.filter-list-item {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 3px solid var(--main-bg-color);
+    background-color: transparent;
+    border-radius: 35px;
+    transition: 0.3s;
+} 
+
+.filter-list-item:hover {
+    background-color: var(--filter-bg-color);
+    border: 3px solid transparent;
+    cursor: pointer;
+} 
+
+.filter-list-item i {
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.search-results {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-results .fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: 1px solid var(--main-bg-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 10px;
+}
