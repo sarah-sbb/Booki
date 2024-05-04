@@ -38,7 +38,6 @@
     padding: 15px;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
-    z-index: -1;
 }
 
 .search-input-item:focus {
@@ -53,5 +52,4 @@ button {
 
 .search-btn_mobile {
     display: none;
-    z-index: 100;
 }
