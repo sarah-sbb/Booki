@@ -52,4 +52,5 @@ button {
 
 .search-btn_mobile {
     display: none;
+    z-index: 100;
 }
