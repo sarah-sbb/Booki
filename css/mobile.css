@@ -76,24 +76,22 @@
     }
 
     .filter {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .filter-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px 5px;
+        flex-wrap: wrap;
         margin-top: 10px;
     }
 
     .filter button {
         display: flex;
         font-size: 12px;
-        width: 135px;
+        width: 140px;
         height: 50px;
-        margin: 0;
+        margin: 0 0 10px 10px;
     }
 
     .search-results {
