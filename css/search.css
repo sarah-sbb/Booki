@@ -10,7 +10,7 @@
 .search-form {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .search-form button {
@@ -24,14 +24,11 @@
     background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
     padding: 16px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
 }
 
 .search-input {
-    border-top: 1px solid var(--main-bg-color);
-    border-bottom: 1px solid var(--main-bg-color);
     margin: 0;
-    width: 20%;
 }
 
 .search-input-item {
@@ -39,6 +36,8 @@
     font-weight: bold;
     border: none;
     padding: 15px;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
 }
 
 .search-input-item:focus {
@@ -47,7 +46,7 @@
 
 button {
     border: none;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     cursor: pointer;
 }
 

@@ -29,15 +29,17 @@
     gap: 30px;
 }
 
-.hebergements-card .card {
-    height: 205px;
-}
-
 .hebergements-card .card-content {
     margin: 5px 10px;
 }
 
+.card-content h3 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
 .card-content p {
+    font-size: 14px;
     margin: 5px 0;
 }
 
