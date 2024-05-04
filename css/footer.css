@@ -1,0 +1,16 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--main-bg-color);
+    gap: 30px;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.footer-menu h3 {
+    margin-bottom: 20px;
+}
+
+.ft-link-item {
+    margin-bottom: 15px;
+}

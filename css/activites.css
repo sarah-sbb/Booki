@@ -1,0 +1,39 @@
+.activites {
+    padding: 0 30px;
+}
+
+.activites .activites-title {
+    margin: 50px 0 30px;
+}
+
+.activites-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;    
+}
+
+.activites-card .card {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    padding: 0;
+}
+
+.activites-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.3s;
+}
+
+.activites-card img:hover {
+    opacity: 0.4;
+}
+
+.activites-card .card-content {
+    display: flex;
+    align-items: center;
+    margin: 20px 15px 10px;
+}

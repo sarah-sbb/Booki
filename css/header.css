@@ -1,13 +1,22 @@
 header {
     display: flex;
+    flex-direction: row;
     height: 80px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px;
 }
 
 .navbar {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding: 0 50px;
 }
 
 .navbar .nav-link {
@@ -18,13 +27,4 @@ header {
 
 .navbar .nav-link .nav-link-item {
     margin-left: 60px;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-}
-
-.nav-logo img {
-    width: 80px;
 }
