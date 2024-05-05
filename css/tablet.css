@@ -20,10 +20,6 @@
     }
 
     .activites-card .card img {
-        height: 200px;
-    }
-
-    .activites-card .card .card-content {
-        margin: 15px;
+        max-height: 200px;
     }
 }
