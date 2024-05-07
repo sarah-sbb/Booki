@@ -1,4 +1,4 @@
-@media screen (max-width: 1024px){
+@media screen AND (max-width: 1024px){
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
